@@ -14,6 +14,7 @@ Permitir a escolha de quais serão os campos na criação de tickets customizand
 
 ### Customização do cadastro de clientes
 Permitir a escolha de quais campos cadastrais o perfil do seu cliente precisa ter, como telefone, endereço, site e outros campos personalizados.
+Após cadastramento do usuário, o mesmo deverá receber um email para confirmar o seu cadastro validando o endereço de email.
 
 ### Controle de Acesso
 Administradores podem criar novos  agentes e também bloqueá-los ou marca-los como excluído.
@@ -35,12 +36,17 @@ Permitir a importação e exportação de dados por meio de xml, csv dentre outr
 
 ### Agentes por categoria
 Os tickets devem ser encaminhados  apenas para os agentes responsáveis por determinadas categorias.
+Neste caso os agentes deverão ser agrupados por "equipe"", exemplo: desenvolvimento, suporte em campo, suporte por telefone, suporte para Telecom e suporte de terceiros (assistência técnica e outros).
+
 ### Notificações por email
 O sistema deve enviar uma notificação por e-mail  sempre que um novo ticket for criado ou tiver uma nova resposta.
 
 ##Gerenciamento e Controle
 ### Prazos e prioridades para os tickets
-Para cada ticket o agente pode atribuir uma prioridade e também uma data final para ele ser concluído.
+Para cada ticket o agente pode atribuir uma prioridade e também uma data final para ele ser concluído. 
+Essa característica deverá ser implementada definindo o SLA para cada tipo de chamado.
+
+
 ### Visão Geral
 Ao acessar o sistema, tenha uma visão geral do que está acontecendo, com
 gráficos e acessos rápidos, além de status dos tickets por agente.
