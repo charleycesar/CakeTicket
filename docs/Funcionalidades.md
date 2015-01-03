@@ -1,6 +1,6 @@
 #CakeTicket - Webdesk
 
-Esse projeto foi idealizado por participantes do grupo CakePHP Brasil no Facebook (https://www.facebook.com/groups/cakebrasil) e seu principal objetivo é o estudo e desenvolvimento de uma aplicação web utilizando o framework CakePHP.
+Esse projeto foi idealizado por participantes do grupo CakePHP Brasil no Facebook (https://www.facebook.com/groups/cakebrasil) e seu principal objetivo é o estudo e desenvolvimento de uma aplicação web utilizando o framework CakePHP na versão 3.0.0.
 
 
 ## Principais Funcionalidades
@@ -24,11 +24,10 @@ Após cadastramento do usuário, o mesmo deverá receber um email para confirmar
 Administradores podem criar novos e/ou converter usuários em agentes e também bloqueá-los. Os agentes nunca poderão ser excluídos do sistema a fim de manter o histórico das interações com os chamados.
 
 ### Acesso diferenciado por perfil
-Cada perfil possui um nível de acesso:  Enquanto agentes apenas interagem nos
-tickets, administradores podem também gerenciar e customizar a ferramenta.
+Cada perfil possui um nível de acesso:  Enquanto agentes apenas interagem nos tickets, administradores podem também gerenciar e customizar a ferramenta.
 
 A customização da ferramenta é um ponto crítico por diversos motivos:
-Muitas ferramentas para abertura de chmados são específicas de acordo com a regra de negócio de cada empresa, portanto, neste caso teremos que definir alguns perfis onde cada perfil tem a sua propria regra de negócio.
+Muitas ferramentas para abertura de chamados são específicas de acordo com a regra de negócio de cada empresa, portanto, neste caso teremos que definir alguns perfis onde cada perfil tem a sua propria regra de negócio.
 Exemplo A:
 Se uma empresa deseja utilizar o sistema para registrar ocorrências de service desk (muito comum no mercado) podemos criar um perfil para empresa onde problemas comuns já estão pré definidos no sistema.
 Exemplo B:
@@ -47,6 +46,7 @@ Permitir a importação e exportação de dados por meio de xml, csv entre outro
 É importante definir que tipo de integração será feita através do sistema.
 
 ## Atendimento
+Agentes e administradores podem deixar comentários internos, que não são visualizados pelos que solicitaram o atendimento.
 
 ### Agentes por categoria
 Os tickets devem ser encaminhados apenas para os agentes responsáveis por determinadas categorias.
