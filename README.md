@@ -18,7 +18,7 @@ Sugiro inicialmente que todos os envolvidos anotem as ideias para discutirmos em
 ### Wiki
 Na Wiki iremos publicar as funcionalidades e como aplicá-las no projeto. Mas lembrem-se que só vai ser publicado na Wiki aquilo que todos forem de acordo.
 
-### Sobre o tema de administração.
+### Sobre o tema de administração
 Este tema foi um tema pago, comprado e já utilizei no meu projeto, eu contribuí com o tema para fugir da estrutura básica do CakePHP, peço somente cautela na utilização do mesmo, afinal ningúem quer encontrar esse painel em todo site que visitar, digamos que vai ser um material de apoio somente.
 
 ### Tutoriais
